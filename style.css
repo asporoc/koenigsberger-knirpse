@@ -1,10 +1,128 @@
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #ef9d56;
-  padding: 20px;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FBFBF8;
+  color: #6B6E6F;
 }
 
-h1 {
-  color: #d14a4a;
+header {
+  background-color: #9CA39C; 
+  padding: 30px 20px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+  color: #FFFFFF;
+  font-weight: 700;
+}
+
+nav {
+  background-color: #FFFFBF;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  display: block;
+  padding: 18px 12px;
+  color: #6B6E6F;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a:focus {
+  color: #6B9797;
+  border-bottom-color: #6B9797;
+  outline: none;
+}
+
+main {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.content {
+  background-color: #D3EEDD;
+  border-radius: 16px;
+  padding: 40px 30px;
+  box-shadow: 0 8px 20px rgba(107,151,151,0.15);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.text {
+  flex: 1 1 320px;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #4A4A4A;
+}
+
+.image {
+  flex: 1 1 320px;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(107,151,151,0.3);
+  object-fit: cover;
+}
+.logo {
+
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 720px) {
+  .content {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+.disclaimer {
+  background-color: #ee0a0a; 
+  padding: 12px 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto 40px;
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
