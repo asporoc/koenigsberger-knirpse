@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -92,8 +91,8 @@ main {
   box-shadow: 0 6px 18px rgba(107,151,151,0.3);
   object-fit: cover;
 }
-.logo {
 
+.logo {
   max-height: 80px;
   width: auto;
   height: auto;
@@ -102,8 +101,8 @@ main {
   flex-shrink: 0;
 }
 
-
-    .header-content {
+@media (max-width: 720px) {
+  .header-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -117,7 +116,17 @@ main {
     flex-direction: column;
     gap: 15px;
   }
+
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .contact-info p {
+    text-align: center;
+  }
 }
+
 .disclaimer {
   background-color: #ee0a0a; 
   padding: 12px 20px;
@@ -129,6 +138,7 @@ main {
   color: #666;
   box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
+
 .map-container {
   width: 100%;
   max-width: 1000px;
@@ -143,17 +153,6 @@ main {
   width: 100%;
   height: 100%;
   border: 0;
-}
-
-@media (max-width: 720px) {
-  h2 {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-
-  .contact-info p {
-    text-align: center;
-  }
 }
 
 
