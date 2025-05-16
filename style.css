@@ -103,12 +103,6 @@ main {
 }
 
 
-@media (max-width: 720px) {
-  .content {
-    flex-direction: column;
-    padding: 30px 20px;
-  
-  }
     .header-content {
     flex-direction: column;
     align-items: center;
@@ -137,12 +131,13 @@ main {
 }
 .map-container {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 ratio */
   height: 0;
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
 }
 
 .map-container iframe {
@@ -152,4 +147,16 @@ main {
   width: 100%;
   height: 100%;
 }
+
+@media (max-width: 720px) {
+  h2 {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .contact-info p {
+    text-align: center;
+  }
+}
+
 
