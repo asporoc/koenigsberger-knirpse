@@ -142,6 +142,7 @@ main {
 .map-container {
   width: 100%;
   max-width: 1000px;
+  min-height: 280px;
   aspect-ratio: 16 / 9;
   margin: 0 auto 30px;
   border-radius: 12px;
