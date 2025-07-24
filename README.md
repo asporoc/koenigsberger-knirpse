@@ -1,2 +1,1 @@
-# koeniginen-kita
-prototype for a static webpage for a kindergarden
+Static Web Appearance of a Kindergarden
