@@ -146,17 +146,15 @@ main {
 }
 
 .disclaimer {
-  background-color: #f9f9f9;  /* Light background for better contrast */
-  color: #333;                /* Dark text for readability */
-  padding: 20px 30px;         /* Increased padding for more space */
-  border-radius: 8px;         /* Rounded corners for a softer look */
-  max-width: 600px;           /* Keep it centered and not too wide */
-  margin: 20px auto 40px;     /* Centering the disclaimer with some spacing */
-  text-align: center;         /* Center text for neat appearance */
-  font-style: normal;         /* Remove italics for easier reading */
-  font-size: 1.2rem;          /* Slightly larger font for better legibility */
-  line-height: 1.5;           /* Better line spacing */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Softer shadow */
+  background-color: #fffbe6; 
+  padding: 12px 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto 40px;
+  text-align: center;
+  font-style: italic;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .map-container {
