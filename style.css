@@ -24,6 +24,24 @@ header h1 {
   color: #FFFFFF;
   font-weight: 700;
 }
+.content h2, .content p {
+  display: block;
+  margin: 1em 0; /* Adds space around headings and paragraphs */
+}
+
+/* Optional: Custom styles for h2 within the .content */
+.content h2 {
+  font-size: 1.8rem; /* Adjust font size */
+  text-align: left; /* Left align heading */
+  color: #4A4A4A;  /* Heading color (can adjust as needed) */
+}
+
+/* Optional: Custom paragraph styles within the .content */
+.content p {
+  font-size: 1.15rem; /* Adjust paragraph font size */
+  line-height: 1.6;   /* Improve readability */
+  color: #4A4A4A;     /* Text color for paragraphs */
+}
 
 nav {
   background-color: #FFFFBF;
